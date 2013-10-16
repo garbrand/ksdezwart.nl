@@ -1,0 +1,76 @@
+.trainingen,
+.item {
+	overflow: auto;
+}
+
+	.trainingen {
+		border-bottom: 3px double #ccc;
+		margin-bottom: 1.8em;
+	}
+	.trainingen .item {
+		padding: 1.8em 0 0.9em 0;
+		border-top: 3px double #ccc;
+	}
+	
+	.trainingen p {
+		font-size: 1.2em;
+		overflow: auto;
+	}
+
+.trainingen .info,
+.trainingen .description {
+	border-top: 1px solid #ccc;
+	padding-top: 1.8em;
+}
+	
+.trainingen .info {
+	width: 36%;
+	padding-right: 4%;
+	float: left;
+	overflow: auto;
+}
+	.trainingen .info dl {
+/*		margin-top: 1.8em;*/
+		overflow: auto;
+		font-size: 0.8em;
+		color: #666;
+	}
+
+	.trainingen .info dt {
+		font-family: Georgia, Times;
+		float: left;
+		width: 30%;
+		color: #333;
+		padding: 0.4em 0;
+	}
+	
+	.trainingen .info dd {
+		font-family: Arial;
+		margin-left: 30%;
+		padding: 0.4em 0;
+	}
+
+.trainingen .description {
+	width: 60%;
+	float: right;
+	font-size: 0.8em;
+}
+
+.trainingen .aanmelden {
+	display: block;
+	width: 30%;
+	height: 1.8em;
+	line-height: 1.8em;
+	text-decoration: none;
+	color: #2F6400;
+	background: #9BDC69;
+	padding: 0 1em;
+	margin-bottom: 1em;
+	border: 0.1em solid #4D9813;
+/*	-webkit-border-radius: 1em;*/
+}
+
+.trainingen a.aanmelden:hover {
+	background: #4D9813;
+	color: #fff;
+}

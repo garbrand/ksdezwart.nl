@@ -1,0 +1,114 @@
+/* (c) Copyright 2007 Garbrand van der Molen. All Rights Reserved. */
+.header {
+	background-color: #C1B0B5;
+	height: 150px;
+	padding: 0 64px 0 210px;
+	position: relative;
+}
+
+.header img {
+	/*
+	float: left;
+	padding-top: 32px;
+	clear: none;
+	*/
+	position: absolute;
+	top: 32px;
+	left: 32px;
+}
+
+.header H1 { padding-top: 50px; }
+.header H2 { font-size: 1.25em;}
+
+.navigation {
+	overflow: auto;
+	font-size: 14px;
+	position: absolute;
+	bottom: 0;
+	left: 210px;
+}
+
+	.navigation li {
+		list-style: none;
+		float: left;
+	}
+	
+	.navigation li a {
+		display: block;
+		float: left;
+		text-decoration: none;
+		background: #DCD5D9;
+		color: #777;
+		font-weight: bold;
+		height: 24px;
+		line-height: 24px;
+		padding: 0 6px;
+		border-left: 1px solid #fff;
+		border-right: 1px solid #AC988C;
+	}
+	
+	.navigation li a:hover {
+		color: #AC3159;
+	}
+	
+	.home .navigation li a.home,
+	.praktijk .navigation li a.praktijk,
+	.train .navigation li a.train,
+	.informatie .navigaton li a.informatie,
+	.cogmed .navigation li a.cogmed {
+		color: #000;
+		background: #fff;
+	}
+
+.note {
+	margin-left: 206px;
+	margin-right: 64px;
+	padding: 16px 0 0px 0px;
+	border-bottom: 3px double #CCC;
+	border-width: 3px 0 3px 0;
+}
+
+.note p,
+.note dl { 
+	font-size: 1.1em;
+}
+
+
+.details {
+	padding: 16px 64px 32px 206px;
+	overflow: auto;
+}
+
+.details.adres {
+	font-size: 0.8em;
+}
+
+.details.adres dt {
+	border-bottom: none;
+}
+
+.columns {
+	overflow: auto;
+}
+
+.column1, 
+.column2,
+.column3,
+.column4 { width: 25%; float: left; overflow: auto;}
+
+/* TODO: Fix these borders */
+.adres DL { line-height: 1em; border-top: 1px solid #CCC; }
+.adres DT,
+.adres DD { border-bottom: 1px solid #CCC;}
+
+.adres DT { float: left; width: 25%; margin-top: 0.5em;}
+.adres DD { margin-top: 0.5em; padding-bottom: 0.5em; }
+
+
+.footer {
+	background-color: #DDD;
+	font-size: 0.7em;
+	padding: 16px 64px 16px 206px;
+}
+
+.footer H2 { color: #666;}

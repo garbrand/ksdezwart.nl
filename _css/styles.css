@@ -1,0 +1,28 @@
+/* styles */
+body {
+	font: 0.9em "Lucida Grande", Lucida, "Lucide", Arial, sans-serif;
+	color: #333;
+}
+
+a { color: #00C;}
+
+h1, h2, h3 {
+	font-family: Georgia, Times;
+	font-weight: normal;
+}
+
+h1 { font-size: 2.5em; }
+h2 { font-size: 1.75em; color: #6C5635;}
+h3 { font-size: 1.25em; color: #6C5635;}
+
+.cogmed dl { margin-bottom: 1em; overflow: auto;}
+
+.cogmed dl dt {
+	width: 160px;
+	float: left;
+}
+
+.cogmed dl dd {
+	margin-left: 160px;
+	margin-bottom: 1em;
+}

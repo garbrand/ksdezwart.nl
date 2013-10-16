@@ -1,0 +1,14 @@
+.trainingen .description {
+	width: auto;
+}
+
+.trainingen .item {
+	overflow: auto;
+	height: auto;
+	clear: both;
+}
+
+.info {
+	overflow: auto;
+	clear: both;
+}
