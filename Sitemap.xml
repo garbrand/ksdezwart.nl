@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.google.com/schemas/sitemap/0.84">
+
+<!-- generator="ScriptSocket - http://www.scriptsocket.com/sitemaps.php" -->
+<url>
+<loc>http://www.ksdezwart.nl/index.html</loc>
+<lastmod>2009-10-05</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.ksdezwart.nl/praktijk.html</loc>
+<lastmod>2009-10-05</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.ksdezwart.nl/trainingen/index.html</loc>
+<lastmod>2009-10-05</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>http://www.ksdezwart.nl/folders/Folder%20Algemene%20Informatie.pdf</loc>
+<lastmod>2009-10-05</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+</urlset>
